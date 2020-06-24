@@ -4,7 +4,7 @@ import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
-/*
+/**
 * Classname : Main
 *
 * Created on 23 June 2020
@@ -20,7 +20,7 @@ import java.time.temporal.ChronoUnit;
 * 4.  Calculate the total number of ERROR logs. Use Files.lines.
 *
 * 5. Compare two results.
-*/
+**/
 
 public class Main {
 
