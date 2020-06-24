@@ -1,26 +1,28 @@
+/**
+ * Classname : Main
+ *
+ * Created on 23 June 2020
+ *
+ * @author Alyona Sviridova NTU KhPI
+ *
+ * 1. Parse the file logs.txt (see the attachment).
+ * Extract to a separate file all the logs.
+ *
+ * 2. Calculate the total number of logs (lines).
+ *
+ * 3. Calculate the total  number of  ERROR logs.
+ * Use previous skills - String.split
+ *
+ * 4.  Calculate the total number of ERROR logs. Use Files.lines.
+ *
+ * 5. Compare two results.
+ **/
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
-
-/**
-* Classname : Main
-*
-* Created on 23 June 2020
-*
-* @author Alyona Sviridova NTU KhPI
-*
-* 1. Parse the file logs.txt (see the attachment).  Extract to a separate file all the logs.
-*
-* 2. Calculate the total number of logs (lines).
-*
-* 3. Calculate the total  number of  ERROR logs. Use previous skills - String.split
-*
-* 4.  Calculate the total number of ERROR logs. Use Files.lines.
-*
-* 5. Compare two results.
-**/
 
 public class Main {
 
@@ -89,13 +91,15 @@ public class Main {
         /*
         * 5. Compare two results.
         * */
-        long durationSplit = ChronoUnit.MILLIS.between(startSplit, finishSplit);
-        long durationFiles= ChronoUnit.MILLIS.between(startFiles, finishFiles);
+        long durationSplit = ChronoUnit.MILLIS
+                .between(startSplit, finishSplit);
+        long durationFiles= ChronoUnit.MILLIS
+                .between(startFiles, finishFiles);
 
         System.out.println("\n"
                 + "Compare two results. \n"
                 + (durationFiles < durationSplit
-                ? "Use Files.lines" : "Use String.split") + " was faster. \n"
+                ? "Use Files.lines" : "Use String.split") + " was faster.\n"
                 + " Files.lines time = " + durationFiles + "\n"
                 + " String.split time = " + durationSplit + "\n");
     }
