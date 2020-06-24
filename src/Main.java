@@ -3,7 +3,7 @@
 *
 * Created on 23 June 2020
 *
-* @autor Alyona Sviridova NTU KhPI
+* @author Alyona Sviridova NTU KhPI
 *
 * 1. Parse the file logs.txt (see the attachment).  Extract to a separate file all the logs.
 *
@@ -18,7 +18,6 @@
 
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
