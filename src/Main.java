@@ -1,3 +1,9 @@
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
+
 /*
 * Classname : Main
 *
@@ -15,12 +21,6 @@
 *
 * 5. Compare two results.
 */
-
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.time.LocalDateTime;
-import java.time.temporal.ChronoUnit;
 
 public class Main {
 
