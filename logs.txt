@@ -1,0 +1,27 @@
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.0.RELEASE)
+
+2019-10-13 18:54:13.754  INFO 14959 --- [           main] com.med.ElqueuebetaApplication           : Starting ElqueuebetaApplication v0.0.1-SNAPSHOT on mednean-web-server with PID 14959 (/home/bvh/mednean_cv/elqueuebeta-0.0.1-SNAPSHOT.jar started by root in /)
+2019-10-13 18:54:13.758  INFO 14959 --- [           main] com.med.ElqueuebetaApplication           : No active profile set, falling back to default profiles: default
+2019-10-13 18:54:13.842  INFO 14959 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@449b2d27: startup date [Sun Oct 13 18:54:13 EEST 2019]; root of context hierarchy
+2019-10-13 18:54:16.180  INFO 14959 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$1b8f1b01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-13 18:54:22.615  WARN 14959 --- [nio-8088-exec-3] com.med.config.JwtAuthenticationFilter   : couldn't find bearer string, will ignore the header
+2019-10-13 18:54:22.623  WARN 14959 --- [nio-8088-exec-5] com.med.config.JwtAuthenticationFilter   : couldn't find bearer string, will ignore the header
+2019-10-13 18:54:22.623  WARN 14959 --- [nio-8088-exec-4] com.med.config.JwtAuthenticationFilter   : couldn't find bearer string, will ignore the header
+2019-10-13 18:54:23.350  WARN 14959 --- [nio-8088-exec-7] com.med.config.JwtAuthenticationFilter   : couldn't find bearer string, will ignore the header
+2019-10-13 18:54:23.377  INFO 14959 --- [nio-8088-exec-6] com.med.config.JwtAuthenticationFilter   : authenticated user superadmin, setting security context
+2019-10-13 18:54:23.421  WARN 14959 --- [nio-8088-exec-8] com.med.config.JwtAuthenticationFilter   : couldn't find bearer string, will ignore the header
+2019-10-13 18:54:27.311  WARN 14959 --- [nio-8088-exec-9] com.med.config.JwtAuthenticationFilter   : couldn't find bearer string, will ignore the header
+2019-10-13 18:54:27.385  WARN 14959 --- [io-8088-exec-10] com.med.config.JwtAuthenticationFilter   : couldn't find bearer string, will ignore the header
+2019-10-13 18:54:27.391  WARN 14959 --- [nio-8088-exec-2] com.med.config.JwtAuthenticationFilter   : couldn't find bearer string, will ignore the header
+2019-10-13 18:54:27.391  WARN 14959 --- [nio-8088-exec-1] com.med.config.JwtAuthenticationFilter   : couldn't find bearer string, will ignore the header
+2019-10-13 18:54:27.391  WARN 14959 --- [nio-8088-exec-3] com.med.config.JwtAuthenticationFilter   : couldn't find bearer string, will ignore the header
+2019-10-13 18:54:20.859  INFO 14959 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public void com.med.controller.MyCustomErrorController.handleError(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-10-13 19:15:00.245 ERROR 14959 --- [pool-1-thread-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+java.util.NoSuchElementException: No value present
